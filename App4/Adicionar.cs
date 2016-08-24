@@ -40,7 +40,7 @@ namespace App4
                 if (valor.Text != "")
                 {
                     prat.Valor = double.Parse(valor.Text, CultureInfo.InvariantCulture);
-
+                    //TESTS
                 }else
                 {
                     prat.Valor = 0.0;
