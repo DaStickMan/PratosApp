@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.filipenote.lazymoney.MainActivity">
+
+    <item
+        android:id="@+id/action_ganhos"
+        android:title="Ganhos"
+        android:icon="@drawable/ic_action_add_ganho"
+        />
+
+    <item
+        android:id="@+id/action_dispesas"
+        android:title="Desepesas"
+        android:icon="@drawable/ic_action_add_despesa"
+        />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
